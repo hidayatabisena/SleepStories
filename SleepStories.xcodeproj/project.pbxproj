@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		539EB8D328E05B4300A11B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539EB8D228E05B4300A11B00 /* LaunchScreen.storyboard */; };
+		539EB8D728E05F3800A11B00 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8D628E05F3800A11B00 /* OnboardingView.swift */; };
+		539EB8D928E061D800A11B00 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8D828E061D800A11B00 /* CircleGroupView.swift */; };
 		53DD6D5928E0379600DC3E64 /* SleepStoriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD6D5828E0379600DC3E64 /* SleepStoriesApp.swift */; };
 		53DD6D5B28E0379600DC3E64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DD6D5A28E0379600DC3E64 /* ContentView.swift */; };
 		53DD6D5D28E0379800DC3E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DD6D5C28E0379800DC3E64 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* Begin PBXFileReference section */
 		539EB8D128E059D900A11B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		539EB8D228E05B4300A11B00 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		539EB8D628E05F3800A11B00 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		539EB8D828E061D800A11B00 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		53DD6D5528E0379600DC3E64 /* SleepStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DD6D5828E0379600DC3E64 /* SleepStoriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStoriesApp.swift; sourceTree = "<group>"; };
 		53DD6D5A28E0379600DC3E64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		539EB8D528E05E0600A11B00 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				539EB8D628E05F3800A11B00 /* OnboardingView.swift */,
+				539EB8D828E061D800A11B00 /* CircleGroupView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539EB8D728E05F3800A11B00 /* OnboardingView.swift in Sources */,
 				53DD6D5B28E0379600DC3E64 /* ContentView.swift in Sources */,
+				539EB8D928E061D800A11B00 /* CircleGroupView.swift in Sources */,
 				53DD6D5928E0379600DC3E64 /* SleepStoriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
