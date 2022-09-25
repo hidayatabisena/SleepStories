@@ -12,7 +12,8 @@ struct SleepStoriesApp: App {
     var body: some Scene {
         WindowGroup {
             // ContentView()
-            OnboardingView()
+            // OnboardingView()
+            MainView()
         }
     }
 }

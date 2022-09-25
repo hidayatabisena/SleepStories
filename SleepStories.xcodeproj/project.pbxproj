@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5395264B28E083C4004FABF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264A28E083C4004FABF9 /* MainView.swift */; };
+		5395264D28E08473004FABF9 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264C28E08473004FABF9 /* SleepView.swift */; };
+		5395264F28E0849E004FABF9 /* MeditateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264E28E0849E004FABF9 /* MeditateView.swift */; };
+		5395265128E084C8004FABF9 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395265028E084C8004FABF9 /* MusicView.swift */; };
+		5395265328E084DE004FABF9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395265228E084DE004FABF9 /* ProfileView.swift */; };
 		539EB8D328E05B4300A11B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539EB8D228E05B4300A11B00 /* LaunchScreen.storyboard */; };
 		539EB8D728E05F3800A11B00 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8D628E05F3800A11B00 /* OnboardingView.swift */; };
 		539EB8D928E061D800A11B00 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539EB8D828E061D800A11B00 /* CircleGroupView.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5395264A28E083C4004FABF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5395264C28E08473004FABF9 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		5395264E28E0849E004FABF9 /* MeditateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateView.swift; sourceTree = "<group>"; };
+		5395265028E084C8004FABF9 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		5395265228E084DE004FABF9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		539EB8D128E059D900A11B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		539EB8D228E05B4300A11B00 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		539EB8D628E05F3800A11B00 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -53,6 +63,11 @@
 			children = (
 				539EB8D628E05F3800A11B00 /* OnboardingView.swift */,
 				539EB8D828E061D800A11B00 /* CircleGroupView.swift */,
+				5395264A28E083C4004FABF9 /* MainView.swift */,
+				5395264C28E08473004FABF9 /* SleepView.swift */,
+				5395264E28E0849E004FABF9 /* MeditateView.swift */,
+				5395265028E084C8004FABF9 /* MusicView.swift */,
+				5395265228E084DE004FABF9 /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,8 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				539EB8D728E05F3800A11B00 /* OnboardingView.swift in Sources */,
+				5395265328E084DE004FABF9 /* ProfileView.swift in Sources */,
 				53DD6D5B28E0379600DC3E64 /* ContentView.swift in Sources */,
+				5395264F28E0849E004FABF9 /* MeditateView.swift in Sources */,
+				5395264D28E08473004FABF9 /* SleepView.swift in Sources */,
 				539EB8D928E061D800A11B00 /* CircleGroupView.swift in Sources */,
+				5395264B28E083C4004FABF9 /* MainView.swift in Sources */,
+				5395265128E084C8004FABF9 /* MusicView.swift in Sources */,
 				53DD6D5928E0379600DC3E64 /* SleepStoriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SleepView.swift
 //  SleepStories
 //
 //  Created by Hidayat Abisena on 25/09/22.
@@ -7,22 +7,22 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SleepView: View {
     var body: some View {
         ZStack {
             Image("bg-iphone")
                 .resizable()
                 .ignoresSafeArea()
             
-            Text("Main View")
+            Text("Sleep View")
                 .foregroundColor(.white)
                 .font(.title)
         } //: ZSTACK
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SleepView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SleepView()
     }
 }
