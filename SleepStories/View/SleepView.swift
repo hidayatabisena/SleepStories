@@ -10,7 +10,7 @@ import SwiftUI
 struct SleepView: View {
     var body: some View {
         ZStack {
-            Image("bg-iphone")
+            Image("bg-iphone-2")
                 .resizable()
                 .ignoresSafeArea()
             

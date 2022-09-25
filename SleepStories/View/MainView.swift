@@ -13,7 +13,7 @@ struct MainView: View {
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     
     init() {
-        UITabBar.appearance().barTintColor = .white
+        UITabBar.appearance().barTintColor = .gray
     }
     
     // MARK: - BODY

@@ -10,7 +10,7 @@ import SwiftUI
 struct MeditateView: View {
     var body: some View {
         ZStack {
-            Image("bg-iphone")
+            Image("bg-iphone-3")
                 .resizable()
                 .ignoresSafeArea()
             

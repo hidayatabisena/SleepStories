@@ -10,7 +10,7 @@ import SwiftUI
 struct MusicView: View {
     var body: some View {
         ZStack {
-            Image("bg-iphone")
+            Image("bg-iphone-4")
                 .resizable()
                 .ignoresSafeArea()
             

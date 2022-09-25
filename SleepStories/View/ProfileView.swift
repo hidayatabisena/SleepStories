@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfileView: View {
     var body: some View {
         ZStack {
-            Image("bg-iphone")
+            Image("bg-iphone-5")
                 .resizable()
                 .ignoresSafeArea()
             
