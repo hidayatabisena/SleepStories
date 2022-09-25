@@ -9,6 +9,8 @@ import SwiftUI
 
 struct OnboardingView: View {
     // MARK: - PROPERTIES
+    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
+    
     @State private var isAnimating: Bool = false
     
     // MARK: - BODY
@@ -53,7 +55,8 @@ struct OnboardingView: View {
                 Spacer()
                 
                 Button(action: {
-                    print("Button tapped")
+                    print("Button Get Started tapped")
+                    isOnboardingViewActive = false
                 }, label: {
                     Image(systemName: "sleep.circle.fill")
                         .imageScale(.large)

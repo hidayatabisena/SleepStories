@@ -53,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				53DD6D5828E0379600DC3E64 /* SleepStoriesApp.swift */,
-				53DD6D5A28E0379600DC3E64 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -68,6 +67,7 @@
 				5395264E28E0849E004FABF9 /* MeditateView.swift */,
 				5395265028E084C8004FABF9 /* MusicView.swift */,
 				5395265228E084DE004FABF9 /* ProfileView.swift */,
+				53DD6D5A28E0379600DC3E64 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

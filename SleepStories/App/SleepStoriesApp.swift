@@ -9,11 +9,16 @@ import SwiftUI
 
 @main
 struct SleepStoriesApp: App {
+    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            // ContentView()
-            // OnboardingView()
-            MainView()
+            ZStack {
+              if isOnboardingViewActive {
+                OnboardingView()
+              } else {
+                MainView()              }
+            }
         }
     }
 }

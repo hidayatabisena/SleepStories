@@ -9,6 +9,9 @@ import SwiftUI
 
 struct MainView: View {
     // MARK: - PROPERTIES
+    
+    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
+    
     init() {
         UITabBar.appearance().barTintColor = .white
     }
