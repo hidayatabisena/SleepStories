@@ -26,6 +26,7 @@ struct HeaderView: View {
                     .fontWeight(.light)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
+                    .padding(.horizontal, 20)
             } //: VSTACK
             .padding()
         } //: ZSTACK
