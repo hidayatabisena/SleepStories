@@ -26,8 +26,6 @@ struct ContentView: View {
                     HeaderView()
                         .padding(.horizontal, 20)
                     
-                    Spacer()
-                    
                     CategoryGridView()
                     
                     FeaturedItemView()
