@@ -12,10 +12,6 @@ struct MainView: View {
     
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     
-//    init() {
-//        UITabBar.appearance().barTintColor = .purple
-//    }
-//
     // MARK: - BODY
     var body: some View {
         TabView {

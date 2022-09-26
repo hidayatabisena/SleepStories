@@ -15,20 +15,15 @@ struct HeaderView: View {
                 .scaledToFit()
             
             VStack {
-                Text("Sleep Stories")
-                    .font(.system(size: 28, design: .rounded))
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                    .padding(.bottom, 15)
                 
                 Text("Soothing bedtime stories to help you fall into a deep and natural sleep")
                     .font(.system(size: 16, design: .rounded))
                     .fontWeight(.light)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
+                    .padding(.top)
                     .padding(.horizontal, 20)
             } //: VSTACK
-            .padding()
         } //: ZSTACK
         .background(colorBackground)
     }

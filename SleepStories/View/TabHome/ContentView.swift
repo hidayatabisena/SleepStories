@@ -12,11 +12,18 @@ struct ContentView: View {
     
     // MARK: - BODY
     var body: some View {
-        VStack(spacing: 15) {
+        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        
+        let window = windowScene?.windows.first
+        
+        VStack {
+            NavigationBarView()
+                .padding(.horizontal, 15)
+                .padding(.top, window?.safeAreaInsets.top ?? 15)
+            
             ScrollView(.vertical, showsIndicators: false, content: {
                 VStack(spacing: 0) {
                     HeaderView()
-                        .padding(.top, 60)
                         .padding(.horizontal, 20)
                     
                     Spacer()
