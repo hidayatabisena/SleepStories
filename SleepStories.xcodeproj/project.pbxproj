@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5316CF8028E16224009A37D9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF7F28E16224009A37D9 /* HeaderView.swift */; };
+		5316CF8328E162B9009A37D9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF8228E162B8009A37D9 /* Constant.swift */; };
+		5316CF8A28E16837009A37D9 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF8928E16837009A37D9 /* CategoryItemView.swift */; };
+		5316CF8D28E16B8F009A37D9 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 5316CF8C28E16B8F009A37D9 /* category.json */; };
+		5316CF9028E170F7009A37D9 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF8F28E170F7009A37D9 /* CategoryModel.swift */; };
+		5316CF9328E17140009A37D9 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF9228E1713F009A37D9 /* CodableBundleExtension.swift */; };
 		5395264B28E083C4004FABF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264A28E083C4004FABF9 /* MainView.swift */; };
 		5395264D28E08473004FABF9 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264C28E08473004FABF9 /* SleepView.swift */; };
 		5395264F28E0849E004FABF9 /* MeditateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264E28E0849E004FABF9 /* MeditateView.swift */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5316CF7F28E16224009A37D9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5316CF8228E162B8009A37D9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5316CF8928E16837009A37D9 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		5316CF8C28E16B8F009A37D9 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		5316CF8F28E170F7009A37D9 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		5316CF9228E1713F009A37D9 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		5395264A28E083C4004FABF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5395264C28E08473004FABF9 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
 		5395264E28E0849E004FABF9 /* MeditateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateView.swift; sourceTree = "<group>"; };
@@ -49,6 +61,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5316CF8128E162AA009A37D9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5316CF8228E162B8009A37D9 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5316CF8428E16793009A37D9 /* TabHome */ = {
+			isa = PBXGroup;
+			children = (
+				53DD6D5A28E0379600DC3E64 /* ContentView.swift */,
+			);
+			path = TabHome;
+			sourceTree = "<group>";
+		};
+		5316CF8528E167A3009A37D9 /* TabSleep */ = {
+			isa = PBXGroup;
+			children = (
+				5395264C28E08473004FABF9 /* SleepView.swift */,
+			);
+			path = TabSleep;
+			sourceTree = "<group>";
+		};
+		5316CF8628E167C2009A37D9 /* TabMeditate */ = {
+			isa = PBXGroup;
+			children = (
+				5395264E28E0849E004FABF9 /* MeditateView.swift */,
+			);
+			path = TabMeditate;
+			sourceTree = "<group>";
+		};
+		5316CF8728E167CF009A37D9 /* TabMusic */ = {
+			isa = PBXGroup;
+			children = (
+				5395265028E084C8004FABF9 /* MusicView.swift */,
+			);
+			path = TabMusic;
+			sourceTree = "<group>";
+		};
+		5316CF8828E167E1009A37D9 /* TabProfile */ = {
+			isa = PBXGroup;
+			children = (
+				5395265228E084DE004FABF9 /* ProfileView.swift */,
+			);
+			path = TabProfile;
+			sourceTree = "<group>";
+		};
+		5316CF8B28E16B84009A37D9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5316CF8C28E16B8F009A37D9 /* category.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5316CF8E28E170E8009A37D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5316CF8F28E170F7009A37D9 /* CategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5316CF9128E17126009A37D9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5316CF9228E1713F009A37D9 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		539EB8D428E05DF100A11B00 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,14 +145,16 @@
 		539EB8D528E05E0600A11B00 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5316CF8828E167E1009A37D9 /* TabProfile */,
+				5316CF8728E167CF009A37D9 /* TabMusic */,
+				5316CF8628E167C2009A37D9 /* TabMeditate */,
+				5316CF8528E167A3009A37D9 /* TabSleep */,
+				5316CF8428E16793009A37D9 /* TabHome */,
 				539EB8D628E05F3800A11B00 /* OnboardingView.swift */,
 				539EB8D828E061D800A11B00 /* CircleGroupView.swift */,
 				5395264A28E083C4004FABF9 /* MainView.swift */,
-				5395264C28E08473004FABF9 /* SleepView.swift */,
-				5395264E28E0849E004FABF9 /* MeditateView.swift */,
-				5395265028E084C8004FABF9 /* MusicView.swift */,
-				5395265228E084DE004FABF9 /* ProfileView.swift */,
-				53DD6D5A28E0379600DC3E64 /* ContentView.swift */,
+				5316CF7F28E16224009A37D9 /* HeaderView.swift */,
+				5316CF8928E16837009A37D9 /* CategoryItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,6 +178,10 @@
 		53DD6D5728E0379600DC3E64 /* SleepStories */ = {
 			isa = PBXGroup;
 			children = (
+				5316CF9128E17126009A37D9 /* Extension */,
+				5316CF8E28E170E8009A37D9 /* Model */,
+				5316CF8B28E16B84009A37D9 /* Data */,
+				5316CF8128E162AA009A37D9 /* Utility */,
 				539EB8D528E05E0600A11B00 /* View */,
 				539EB8D428E05DF100A11B00 /* App */,
 				539EB8D128E059D900A11B00 /* Info.plist */,
@@ -170,6 +260,7 @@
 				539EB8D328E05B4300A11B00 /* LaunchScreen.storyboard in Resources */,
 				53DD6D6028E0379800DC3E64 /* Preview Assets.xcassets in Resources */,
 				53DD6D5D28E0379800DC3E64 /* Assets.xcassets in Resources */,
+				5316CF8D28E16B8F009A37D9 /* category.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,14 +271,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5316CF9028E170F7009A37D9 /* CategoryModel.swift in Sources */,
 				539EB8D728E05F3800A11B00 /* OnboardingView.swift in Sources */,
 				5395265328E084DE004FABF9 /* ProfileView.swift in Sources */,
 				53DD6D5B28E0379600DC3E64 /* ContentView.swift in Sources */,
 				5395264F28E0849E004FABF9 /* MeditateView.swift in Sources */,
 				5395264D28E08473004FABF9 /* SleepView.swift in Sources */,
+				5316CF8028E16224009A37D9 /* HeaderView.swift in Sources */,
 				539EB8D928E061D800A11B00 /* CircleGroupView.swift in Sources */,
 				5395264B28E083C4004FABF9 /* MainView.swift in Sources */,
+				5316CF8328E162B9009A37D9 /* Constant.swift in Sources */,
+				5316CF8A28E16837009A37D9 /* CategoryItemView.swift in Sources */,
 				5395265128E084C8004FABF9 /* MusicView.swift in Sources */,
+				5316CF9328E17140009A37D9 /* CodableBundleExtension.swift in Sources */,
 				53DD6D5928E0379600DC3E64 /* SleepStoriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
