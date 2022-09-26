@@ -12,10 +12,10 @@ struct MainView: View {
     
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     
-    init() {
-        UITabBar.appearance().barTintColor = .gray
-    }
-    
+//    init() {
+//        UITabBar.appearance().barTintColor = .purple
+//    }
+//
     // MARK: - BODY
     var body: some View {
         TabView {
@@ -48,6 +48,17 @@ struct MainView: View {
                     Text("Sena")
                 })
         } //: TAB
+        .onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.backgroundEffect = UIBlurEffect(style: .systemUltraThinMaterial)
+            appearance.backgroundColor = UIColor(Color.black.opacity(0.7))
+            
+            // Use this when scrolling
+            UITabBar.appearance().standardAppearance = appearance
+            
+            // Use this when scrolled all the way up
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
     }
 }
 

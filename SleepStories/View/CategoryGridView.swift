@@ -10,7 +10,7 @@ import SwiftUI
 struct CategoryGridView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false, content: {
-            LazyHGrid(rows: gridLayout, spacing: columnSpacing, content: {
+            LazyHGrid(rows: categoryLayout, spacing: columnSpacing, content: {
                 ForEach(categories) { item in
                     CategoryItemView(category: item)
                 }
