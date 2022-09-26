@@ -56,7 +56,7 @@ Meskipun saat file README ini ditulis, projectnya masih belum selesai (baru seki
 
 Di project ini saya menggunakan banyak JSON data untuk feeding konten di UI sekaligus buat mocking API buat referensi tim Backend.
 
-Dan untuk memudahkan pekerjaan tersebut, saya menggunakan website yang namanya: [Mocakroo](https://mockaroo.com)
+Dan untuk memudahkan pekerjaan tersebut, saya menggunakan website yang namanya: [Mockaroo](https://mockaroo.com)
 
 # Supported by 💙
 
