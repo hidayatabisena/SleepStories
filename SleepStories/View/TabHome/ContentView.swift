@@ -18,6 +18,9 @@ struct ContentView: View {
                 .padding(.horizontal, 20)
             
             Spacer()
+            
+            CategoryGridView()
+            Spacer()
         } //: VSTACK
         .background(colorBackground)
         .ignoresSafeArea()
