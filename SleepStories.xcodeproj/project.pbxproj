@@ -19,6 +19,8 @@
 		5316CF9B28E1906E009A37D9 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF9A28E1906E009A37D9 /* ProductModel.swift */; };
 		5316CF9D28E19157009A37D9 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF9C28E19157009A37D9 /* ProductItemView.swift */; };
 		5316CF9F28E1A941009A37D9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CF9E28E1A941009A37D9 /* NavigationBarView.swift */; };
+		5316CFA128E1B01F009A37D9 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CFA028E1B01F009A37D9 /* CreditsView.swift */; };
+		5316CFA428E1B1D1009A37D9 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316CFA328E1B1D1009A37D9 /* CenterModifier.swift */; };
 		5395264B28E083C4004FABF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264A28E083C4004FABF9 /* MainView.swift */; };
 		5395264D28E08473004FABF9 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264C28E08473004FABF9 /* SleepView.swift */; };
 		5395264F28E0849E004FABF9 /* MeditateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395264E28E0849E004FABF9 /* MeditateView.swift */; };
@@ -46,6 +48,8 @@
 		5316CF9A28E1906E009A37D9 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		5316CF9C28E19157009A37D9 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		5316CF9E28E1A941009A37D9 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		5316CFA028E1B01F009A37D9 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		5316CFA328E1B1D1009A37D9 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		5395264A28E083C4004FABF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5395264C28E08473004FABF9 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
 		5395264E28E0849E004FABF9 /* MeditateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			children = (
 				53DD6D5A28E0379600DC3E64 /* ContentView.swift */,
 				5316CF9E28E1A941009A37D9 /* NavigationBarView.swift */,
+				5316CFA028E1B01F009A37D9 /* CreditsView.swift */,
 			);
 			path = TabHome;
 			sourceTree = "<group>";
@@ -148,6 +153,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		5316CFA228E1B1BD009A37D9 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				5316CFA328E1B1D1009A37D9 /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		539EB8D428E05DF100A11B00 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +209,7 @@
 		53DD6D5728E0379600DC3E64 /* SleepStories */ = {
 			isa = PBXGroup;
 			children = (
+				5316CFA228E1B1BD009A37D9 /* Modifier */,
 				5316CF9128E17126009A37D9 /* Extension */,
 				5316CF8E28E170E8009A37D9 /* Model */,
 				5316CF8B28E16B84009A37D9 /* Data */,
@@ -293,6 +307,7 @@
 				5316CF9028E170F7009A37D9 /* CategoryModel.swift in Sources */,
 				539EB8D728E05F3800A11B00 /* OnboardingView.swift in Sources */,
 				5395265328E084DE004FABF9 /* ProfileView.swift in Sources */,
+				5316CFA428E1B1D1009A37D9 /* CenterModifier.swift in Sources */,
 				5316CF9B28E1906E009A37D9 /* ProductModel.swift in Sources */,
 				5316CF9528E1784A009A37D9 /* CategoryGridView.swift in Sources */,
 				53DD6D5B28E0379600DC3E64 /* ContentView.swift in Sources */,
@@ -303,6 +318,7 @@
 				539EB8D928E061D800A11B00 /* CircleGroupView.swift in Sources */,
 				5395264B28E083C4004FABF9 /* MainView.swift in Sources */,
 				5316CF8328E162B9009A37D9 /* Constant.swift in Sources */,
+				5316CFA128E1B01F009A37D9 /* CreditsView.swift in Sources */,
 				5316CF9F28E1A941009A37D9 /* NavigationBarView.swift in Sources */,
 				5316CF9728E181EA009A37D9 /* FeaturedItemView.swift in Sources */,
 				5316CF8A28E16837009A37D9 /* CategoryItemView.swift in Sources */,

@@ -39,6 +39,10 @@ struct ContentView: View {
                         } //: LOOP
                     } //: GRID
                     .padding(15)
+                    
+                    CreditsView()
+                        .modifier(CenterModifier())
+                        .padding([.top, .bottom])
                 } //: VSTACK
             }) //: SCROLL
         } //: VSTACK
