@@ -53,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				53DD6D5828E0379600DC3E64 /* SleepStoriesApp.swift */,
+				539EB8D228E05B4300A11B00 /* LaunchScreen.storyboard */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -94,7 +95,6 @@
 				539EB8D528E05E0600A11B00 /* View */,
 				539EB8D428E05DF100A11B00 /* App */,
 				539EB8D128E059D900A11B00 /* Info.plist */,
-				539EB8D228E05B4300A11B00 /* LaunchScreen.storyboard */,
 				53DD6D5C28E0379800DC3E64 /* Assets.xcassets */,
 				53DD6D5E28E0379800DC3E64 /* Preview Content */,
 			);
