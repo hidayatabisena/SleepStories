@@ -14,6 +14,7 @@ let categoryItemColor: Color = Color("category-item-color")
 // DATA
 let categories: [Category] = Bundle.main.decode("category.json")
 let products: [Product] = Bundle.main.decode("product.json")
+let sleepProducts: [Product] = Bundle.main.decode("product.json")
 
 // LAYOUT
 let columnSpacing: CGFloat = 10
