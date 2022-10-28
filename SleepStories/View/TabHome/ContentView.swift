@@ -45,7 +45,8 @@ struct ContentView: View {
             }) //: SCROLL
         } //: VSTACK
         .background(colorBackground)
-        .ignoresSafeArea()
+        //.ignoresSafeArea(.top)
+        .edgesIgnoringSafeArea(.top)
     }
 }
 
